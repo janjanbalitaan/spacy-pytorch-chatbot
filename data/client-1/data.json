@@ -1,0 +1,119 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "caring",
+        "patterns": [
+          "How are you?",
+          "How are you doing?"
+        ],
+        "responses": [
+          "I'm doing great, what can I do for you?",
+          "Something happened for a reason",
+          "I feel good with our coffee products today"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye", 
+          "See you later", 
+          "Goodbye"
+        ],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks", 
+          "Thank you", 
+          "That's helpful", 
+          "Thank's a lot!"
+        ],
+        "responses": [
+          "Happy to help!", 
+          "Any time!", 
+          "My pleasure"
+        ]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?"
+        ],
+        "responses": [
+          "We sell coffee and tea",
+          "We have coffee and tea"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Paypal",
+          "We accept most major credit cards, and Paypal"
+        ]
+      },
+      {
+        "tag": "delivery_availability",
+        "patterns": [
+          "Do you deliver?",
+          "What are the delivery method?"
+        ],
+        "responses": [
+          "We deliver using Grab or Lalafood",
+          "We offer delivery using Grab or Lalafood"
+        ]
+      },
+      {
+        "tag": "delivery_time",
+        "patterns": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "When do I get my delivery?"
+        ],
+        "responses": [
+          "Delivery takes 30 mins to 1 hour",
+          "Shipping takes 30 mins to 1 hour"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      }
+    ]
+  }
